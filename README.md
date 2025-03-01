@@ -11,7 +11,7 @@ Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
 
 2. Führen Sie das Skript aus:
    ```bash
-   python src/Objekterkennung.py
+   python src/main.py
    ```
 
 ## Modelle
@@ -22,4 +22,4 @@ Das Projekt verwendet folgende YOLOv8 Modelle:
 - yolov8n.pt
 - yolov8s.pt
 
-Diese befinden sich im `models/` Verzeichnis.
+Diese befinden sich im `src/models/` Verzeichnis.
