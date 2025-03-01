@@ -23,3 +23,6 @@ Das Projekt verwendet folgende YOLOv8 Modelle:
 - yolov8s.pt
 
 Diese befinden sich im `src/models/` Verzeichnis.
+
+## Lizenz
+Dieses Projekt steht unter [MIT License](LICENSE)
