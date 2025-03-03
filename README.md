@@ -6,6 +6,7 @@ Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
 
 1. Installieren Sie die Abhängigkeiten:
    ```bash
+   python -m venv .venv
    pip install -r requirements.txt
    ```
 
