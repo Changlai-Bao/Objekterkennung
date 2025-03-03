@@ -36,4 +36,4 @@ Dieses Projekt steht unter [MIT License](LICENSE)
 
 - 📧 Email: [changlai.bao@outlook.com](mailto:changlai.bao@outlook.com)
 - 🐙 GitHub: [Changlai-Bao](https://github.com/Changlai-Bao)
-- 🌐 个人网站: [https://Changlai-Bao.github.io](https://Changlai-Bao.github.io)
+- 🌐 Webseit: [https://Changlai-Bao.github.io](https://Changlai-Bao.github.io)
