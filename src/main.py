@@ -11,16 +11,16 @@ def modell_waehlen():
     auswahl = input("Wählen Sie ein Modell (1-4): ")
     
     if auswahl == "1":
-        return "models/yolov8n.pt"
+        return "src/models/yolov8n.pt"
     elif auswahl == "2":
-        return "models/yolov8s.pt" 
+        return "src/models/yolov8s.pt" 
     elif auswahl == "3":
-        return "models/yolov8m.pt"
+        return "src/models/yolov8m.pt"
     elif auswahl == "4":
-        return "models/yolov8l.pt"
+        return "src/models/yolov8l.pt"
     else:
         print("Ungültige Auswahl. Verwende Standardmodell (YOLOv8n).")
-        return "models/yolov8n.pt"
+        return "src/models/yolov8n.pt"
 
 # Hauptfunktion
 def objekterkennung():
