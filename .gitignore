@@ -1,3 +1,4 @@
 # Virtualenv
 .venv/
+.venv_linux/
 

@@ -4,14 +4,25 @@ Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
 
 ## 🚀Verwendung
 
-1. Installieren Sie die Abhängigkeiten:
+1. Repository klonen:
 
    ```bash
+   git clone https://github.com/Changlai-Bao/Objekterkennung.git
+   ```
+2. Installieren Sie die Abhängigkeiten:
+
+   ```bash
+   # Windows
    python -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+
+   #Linux
+   python -m venv .venv_linux
+   source .venv_linux/bin/activate
    pip install -r requirements.txt
    ```
-
-2. Führen Sie das Skript aus:
+3. Führen Sie das Skript aus:
 
    ```bash
    python src/main.py
@@ -22,7 +33,7 @@ Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
 Das Projekt verwendet folgende YOLOv8 Modelle:
 
 - yolov8l.pt
-- yolov8m.pt 
+- yolov8m.pt
 - yolov8n.pt
 - yolov8s.pt
 
