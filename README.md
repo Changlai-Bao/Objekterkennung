@@ -2,6 +2,11 @@
 
 Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
 
+## ✨Funktionen
+
+- Verwendet vier verschiedene Modelle
+- Beenden mit der Taste 'q'
+
 ## 🚀Verwendung
 
 1. Repository klonen:
