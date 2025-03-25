@@ -23,8 +23,8 @@ Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
    pip install -r requirements.txt
 
    #Linux
-   python -m venv .venv_linux
-   source .venv_linux/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
    ```
 3. Führen Sie das Skript aus:
