@@ -1,48 +1,42 @@
-# Objekterkennung Projekt
+# Objekterkennung
 
 Dieses Projekt implementiert Objekterkennung mit YOLOv8 Modellen.
 
 ## ✨Funktionen
 
 - Verwendet vier verschiedene Modelle
+  - `yolov8l.pt`
+  - `yolov8m.pt`
+  - `yolov8n.pt`
+  - `yolov8s.pt`
 - Beenden mit der Taste `q`
 
-## 🚀Verwendung
+## 📁Voraussetzungen
+
+- `python>=3.13`
+- `numpy>=2.2.5`
+- `opencv-python>=4.11.0.86`
+- `ultralytics>=8.3.137`
+
+## 🛠️Installation
 
 1. Repository klonen:
 
    ```bash
    git clone https://github.com/Changlai-Bao/Objekterkennung.git
    ```
-2. Installieren Sie die Abhängigkeiten:
+
+2. Abhängigkeiten installieren:
 
    ```bash
-   # Windows
-   python -m venv .venv
-   .venv\Scripts\activate
-   pip install -r requirements.txt
-
-   #Linux
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-3. Führen Sie das Skript aus:
-
-   ```bash
-   python src/main.py
+   uv sync
    ```
 
-## 📁Modelle
+## 🚀Verwendung
 
-Das Projekt verwendet folgende YOLOv8 Modelle:
-
-- `yolov8l.pt`
-- `yolov8m.pt`
-- `yolov8n.pt`
-- `yolov8s.pt`
-
-Diese befinden sich im `src/models/` Verzeichnis.
+```bash
+uv run src/main.py
+```
 
 ## 📜Lizenz
 
